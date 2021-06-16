@@ -1,2 +1,5 @@
 # Viajes_Chile-ADL
-Repositorio de ejemplo 
+Prueba de conocimientos del primer modulo del diplomado: Diseño UX/UI
+de la Academia Desafio Latam_
+
+Hecho por: Damian Soler
