@@ -20,3 +20,12 @@
 .destacado{
     padding-top: 5rem;
 }
+
+.carta{
+    padding: 0;
+}
+
+.card{
+    padding: 0;
+    margin-bottom: 5rem;
+}
