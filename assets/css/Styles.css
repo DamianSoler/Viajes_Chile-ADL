@@ -1,3 +1,11 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    min-height: 100vh;
+}
+
 .blanco{
     color: white;
 }
@@ -23,9 +31,32 @@
 
 .carta{
     padding: 0;
+    height: 9rem;
 }
 
 .card{
     padding: 0;
-    margin-bottom: 5rem;
+    margin-bottom: 1rem;
+    color: white;
+}
+
+footer{
+    margin-top: auto;
+}
+.foot{
+    vertical-align: middle;
+}
+
+.logofoot{
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-left: 3rem;
+}
+
+.icofoot{
+    float: right;
+    color: white;
+    margin-right: 1rem;
 }
