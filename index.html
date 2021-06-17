@@ -8,12 +8,13 @@
     <meta name="author" content="DamianSoler">
     <link rel="icon" type="image/svg+xml" href="assets/img/viajes.svg" sizes="any">     
     <title>Viajes Chile</title>
-
+    <!--FontAwesome-->
+    <script src="https://kit.fontawesome.com/5fc40070ad.js" crossorigin="anonymous"></script>
     <!--Bootstrap 5.0 CSS-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <!--Css Propio-->
-    <link rel="Stylesheet" href="assets/css/Styles.css" type="text/css">
+        <link rel="Stylesheet" href="assets/css/Styles.css" type="text/css">
 </head>
 
 <body>
@@ -33,10 +34,10 @@
                             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Quienes Somos</a>
+                            <a class="nav-link" href="#quienes">Quienes Somos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Destacados</a>
+                            <a class="nav-link" href="#destacados">Destacados</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#">Contacto</a>
@@ -70,7 +71,57 @@
     </div>
 
     <!--Seccion Quienes somos-->
+        <div class=".container-fluid d-sm-none d-md-block" id="quienes">
+            <div class="quienes bg-dark text-center p-3">
+                <h3 class="blanco">¿Quienes Somos?</h3>
+                <hr class="divisor">
+            </div>
+        </div>
 
+        <div class=".container-fluid d-sm-none d-md-block">
+            <div class="row bg-dark p-2">
+                <div class="col mx-1">
+                    <div class="ico bg-info centrado text-light">
+                        <i class="fas fa-plane"></i>
+                    </div>
+                    <div class="bg-dark"><p class="blanco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam architecto, odio magnam labore aperiam, natus esse, molestiae tempora enim quasi accusamus praesentium illo unde similique dolore! Ducimus veniam fugit amet, saepe ipsa facilis in quasi, quos animi nisi repellendus assumenda id doloribus asperiores! Eaque porro, autem officia neque reprehenderit non eum quia a nisi laboriosam dolores quo excepturi reiciendis incidunt nobis ratione odit laborum.</p>
+                    </div>
+                </div>
+                <div class="col mx-1">
+                    <div class="bg-dark"><p class="blanco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam architecto, odio magnam labore aperiam, natus esse, molestiae tempora enim quasi accusamus praesentium illo unde similique dolore! Ducimus veniam fugit amet, saepe ipsa facilis in quasi, quos animi nisi repellendus assumenda id doloribus asperiores! Eaque porro, autem officia neque reprehenderit non eum quia a nisi laboriosam dolores quo excepturi reiciendis incidunt nobis ratione odit laborum.</p>
+                    </div>
+                    <div class="ico bg-info centrado text-light">
+                        <i class="fas fa-mountain"></i>
+                    </div>
+                </div>
+            <div class="col mx-1">
+                <div class="ico bg-info centrado text-light">
+                    <i class="fas fa-route"></i>
+                </div>
+                <div class="bg-dark"><p class="blanco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam architecto, odio magnam labore aperiam, natus esse, molestiae tempora enim quasi accusamus praesentium illo unde similique dolore! Ducimus veniam fugit amet, saepe ipsa facilis in quasi, quos animi nisi repellendus assumenda id doloribus asperiores! Eaque porro, autem officia neque reprehenderit non eum quia a nisi laboriosam dolores quo excepturi reiciendis incidunt nobis ratione odit laborum.</p>
+                </div>
+            </div>
+        </div>
+
+    <!--Destacados-->
+
+    <div class=".container-fluid" id="destacados">
+        <div class="quienes bg-dark text-center p-3">
+            <h3 class="blanco destacado">Destacados</h3>
+            <hr class="divisor">
+        </div>
+    </div>
+
+    <div class=".container-fluid bg-dark">
+        <div class="card" style="width: 18rem;">
+            <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </div>
 
     <!--BootStrap JS & Pooper-->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"

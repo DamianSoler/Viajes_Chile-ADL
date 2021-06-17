@@ -1,3 +1,22 @@
+.blanco{
+    color: white;
+}
+
 .nav-link{
     margin-left: 1rem;
+}
+
+.divisor{
+    color: #0dcaf0;
+    margin-top: 2rem;
+    border-top: 5px solid;
+}
+
+.centrado{
+    text-align: center;
+    width: 100%;
+}
+
+.destacado{
+    padding-top: 5rem;
 }
