@@ -52,11 +52,10 @@ footer{
     color: white;
     font-size: 2rem;
     font-weight: lighter;
-    margin-left: 3rem;
 }
 
 .icofoot{
     float: right;
     color: white;
-    margin-right: 1rem;
+    margin: 1rem;
 }
